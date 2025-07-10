@@ -124,19 +124,6 @@ AWS Infrastructure:
 
 ---
 
-## Estimated Monthly Costs
-
-| Resource       | Amount      | Approx Cost      |
-|----------------|-------------|------------------|
-| EFS Storage    | 10 GB       | ~$0.30/month     |
-| EFS Throughput | Burst mode  | Included         |
-| Mount Targets  | 2 targets   | ~$0.60/month     |
-
-**Total Estimate:** ~$0.90/month  
-*Estimates vary based on actual usage.*
-
----
-
 ## Cleanup
 
 To destroy all infrastructure:
