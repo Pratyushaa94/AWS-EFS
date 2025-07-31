@@ -46,10 +46,12 @@ cd <your-repo>
 
 Go to `Settings → Secrets → Actions`, add:
 
-| Name                  | Value              |
-|-----------------------|--------------------|
-| AWS_ACCESS_KEY_ID     | Your AWS access key |
-| AWS_SECRET_ACCESS_KEY | Your AWS secret key |
+| Name                   | Value                          |
+|------------------------|--------------------------------|
+| `AWS_ACCESS_KEY_ID`    | Your AWS access key            |
+| `AWS_SECRET_ACCESS_KEY`| Your AWS secret key            |
+| `INFRACOST_API_KEY`    | Your Infracost API key         |
+
 
 These credentials must allow access to manage EFS, VPC, and S3.
 
