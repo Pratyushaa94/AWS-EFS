@@ -46,10 +46,12 @@ cd <your-repo>
 
 Go to `Settings → Secrets → Actions`, add:
 
-| Name                  | Value              |
-|-----------------------|--------------------|
-| AWS_ACCESS_KEY_ID     | Your AWS access key |
-| AWS_SECRET_ACCESS_KEY | Your AWS secret key |
+| Name                   | Value                          |
+|------------------------|--------------------------------|
+| `AWS_ACCESS_KEY_ID`    | Your AWS access key            |
+| `AWS_SECRET_ACCESS_KEY`| Your AWS secret key            |
+| `INFRACOST_API_KEY`    | Your Infracost API key         |
+
 
 These credentials must allow access to manage EFS, VPC, and S3.
 
@@ -121,19 +123,6 @@ AWS Infrastructure:
    │    EFS     │
    └────────────┘
 ```
-
----
-
-## Estimated Monthly Costs
-
-| Resource       | Amount      | Approx Cost      |
-|----------------|-------------|------------------|
-| EFS Storage    | 10 GB       | ~$0.30/month     |
-| EFS Throughput | Burst mode  | Included         |
-| Mount Targets  | 2 targets   | ~$0.60/month     |
-
-**Total Estimate:** ~$0.90/month  
-*Estimates vary based on actual usage.*
 
 ---
 
